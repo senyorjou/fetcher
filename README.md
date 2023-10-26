@@ -15,7 +15,7 @@ func main() {
 }
 ```
 
-## Usage using serial calls
+## Usage using concurrent calls
 
 Comment `getSerial` func and run `go run .`
 

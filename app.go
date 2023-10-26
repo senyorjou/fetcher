@@ -85,6 +85,7 @@ func parseWeather(payload []byte) Temperature {
 
 	return currentWeather
 }
+
 func getCurrentWeather(capital Capital) []byte {
 	resp, err := http.Get(buildURL(capital))
 	if err != nil {

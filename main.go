@@ -23,9 +23,7 @@ func getConcurrent(capitals []Capital) {
 	for _, capital := range capitals {
 		cityT := parseWeather(<-channel)
 		fmt.Printf("%s: %2.1f %s\n", capital.CountryName, cityT.CW.Temperature, cityT.CWU.Temperature)
-
 	}
-
 }
 
 func main() {

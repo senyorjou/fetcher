@@ -46,6 +46,7 @@ Copy `Makefile.sample` to you directory for convinience
 ## Actual results
 
 Actual results in seconds of measuring `time make run`
-| Language  | version         | time  |
+| Language  | version        | time |
 |---|---|---|
-| Clojure   | 1.11 / Java 21  | 5.2  |
+| Clojure   | 1.11 / Java 21 | 4.6  |
+| GO        | 1.19           | 0.7  |

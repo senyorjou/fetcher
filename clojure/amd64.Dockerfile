@@ -1,4 +1,4 @@
-FROM arm64v8/clojure:temurin-21-lein-2.10.0-jammy AS builder
+FROM clojure:temurin-21-lein-2.10.0-alpine AS builder
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY . .
 
 RUN lein uberjar
 
-FROM arm64v8/clojure:temurin-21-jammy
+FROM clojure:temurin-21-alpine
 
 WORKDIR /app
 

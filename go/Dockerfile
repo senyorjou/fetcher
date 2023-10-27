@@ -8,8 +8,7 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o app
 
 
-# Deploy the application binary into a lean image
-FROM scratch AS runner
+FROM gcr.io/distroless/static-debian12 AS runner
 
 WORKDIR /app
 

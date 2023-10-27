@@ -1,0 +1,9 @@
+.PHONY: build run
+
+IMAGE_NAME="THE NAME OF YOUR PROGRAM"
+
+build:
+        docker buildx build -t $(IMAGE_NAME) .
+
+run:
+        docker run --rm $(IMAGE_NAME)

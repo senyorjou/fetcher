@@ -50,3 +50,4 @@ Actual results in seconds of measuring `time make run`
 |---|---|---|
 | Clojure   | 1.11 / Java 21 | 4.6  |
 | GO        | 1.19           | 0.7  |
+| Javscript | 20.9.0         | 0.03 |

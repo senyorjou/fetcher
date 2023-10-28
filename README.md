@@ -46,8 +46,16 @@ Copy `Makefile.sample` to you directory for convinience
 ## Actual results
 
 Actual results in seconds of measuring `time make run`
+### Intel i7
 | Language   | version        | time |
 |---|---|----|
-| Clojure    | 1.11 / Java 21 | 4.6  |
-| GO         | 1.19           | 0.7  |
-| Javascript | 20.9.0         | 0.03 |
+| Clojure    | 1.11 / Java 21 | 0,02s user 0,00s system 0% cpu 4,593 total |
+| GO         | 1.19           | 0,01s user 0,04s system 4% cpu 1,115 total |
+| Javascript | 20.9.0         | 0,01s user 0,02s system 1% cpu 2,354 total |
+
+### ARM M2
+| Language   | version        | time |
+|---|---|----|
+| Clojure    | 1.11 / Java 21 |  |
+| GO         | 1.19           |  |
+| Javascript | 20.9.0         |  |

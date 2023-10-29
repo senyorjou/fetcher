@@ -49,13 +49,13 @@ Actual results in seconds of measuring `time make run`
 ### Intel i7
 | Language   | version        | time |
 |---|---|----|
-| GO         | 1.19           | 0,01s user 0,04s system 4% cpu 1,115 total |
-| Javascript | 20.9.0         | 0,01s user 0,02s system 1% cpu 2,354 total |
-| Clojure    | 1.11 / Java 21 | 0,02s user 0,00s system 0% cpu 4,593 total |
+| GO         | 1.19           | `0,01s user 0,04s system 4% cpu 1,115` |
+| Javascript | 20.9.0         | `0,01s user 0,02s system 1% cpu 2,354` |
+| Clojure    | 1.11 / Java 21 | `0,02s user 0,00s system 0% cpu 4,593` |
 
 ### ARM M2
 | Language   | version        | time |
 |---|---|----|
-| GO         | 1.19           | 0.03s user 0.02s system 7% cpu 0.713 total |
-| Javascript | 20.9.0         | 0.03s user 0.03s system 2% cpu 2.172 total |
-| Clojure    | 1.11 / Java 21 | 0.03s user 0.03s system 1% cpu 4.309 total |
+| GO         | 1.19           | `0.03s user 0.02s system 7% cpu 0.713` |
+| Javascript | 20.9.0         | `0.03s user 0.03s system 2% cpu 2.172` |
+| Clojure    | 1.11 / Java 21 | `0.03s user 0.03s system 1% cpu 4.309` |

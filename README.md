@@ -50,6 +50,7 @@ Actual results in seconds of measuring `time make run` (2nd run)
 | Language   | version        | time |
 |---|---|----|
 | GO         | 1.19           | `0,01s user 0,04s system 4% cpu 1,115` |
+| Python     | 3.12           | `0,01s user 0,01s system 1% cpu 1,547` |
 | Javascript | 20.9.0         | `0,01s user 0,02s system 1% cpu 2,354` |
 | Clojure    | 1.11 / Java 21 | `0,02s user 0,00s system 0% cpu 4,593` |
 

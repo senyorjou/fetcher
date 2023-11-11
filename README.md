@@ -45,7 +45,7 @@ Copy `Makefile.sample` to you directory for convinience
 
 ## Actual results
 
-Actual results in seconds of measuring `time make run`
+Actual results in seconds of measuring `time make run` (2nd run)
 ### Intel i7
 | Language   | version        | time |
 |---|---|----|
@@ -57,5 +57,6 @@ Actual results in seconds of measuring `time make run`
 | Language   | version        | time |
 |---|---|----|
 | GO         | 1.19           | `0.03s user 0.02s system 7% cpu 0.713` |
+| Python     | 3.12           | `0.04s user 0.03s system 4% cpu 1.436` |
 | Javascript | 20.9.0         | `0.03s user 0.03s system 2% cpu 2.172` |
 | Clojure    | 1.11 / Java 21 | `0.03s user 0.03s system 1% cpu 4.309` |

@@ -5,12 +5,6 @@ import json
 
 
 base_url = "https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current_weather=true"
-country = {'CountryName': 'British Indian Ocean Territory',
-           'CapitalName': 'Diego Garcia',
-           'CapitalLatitude': '-7.3',
-           'CapitalLongitude': '72.400000',
-           'CountryCode': 'IO',
-           'ContinentName': 'Africa'}
 
 def get_temp(response):
     return (response["current_weather"]["temperature"],
@@ -39,7 +33,8 @@ async def main():
     with open("capitals.json") as f:
         capitals = json.load(f)
 
-    results = await asyncio.gather(*map(partial(get_async, client), capitals))
+    f_call = partial(get_async, client)
+    results = await asyncio.gather(*map(f_call, capitals))
     for r in results:
         print(r)
 

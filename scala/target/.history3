@@ -1,7 +1,0 @@
-1699871769383:;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/sz/g59c_f8x01zbgds2kwlpfx980000gq/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/giscla/Library/Application Support/JetBrains/IdeaIC2023.2/plugins/Scala/repo/org/jetbrains/scala/sbt-structure-extractor_2.12_1.0/2023.1.0/sbt-structure-extractor-2023.1.0.jar" org.jetbrains.sbt.CreateTasks;preferScala2;*/*:dumpStructure
-1699880906040:Docker/publishLocal
-1699880956168:reload
-1699880957939:Docker/publishLocal
-1699881057397:reload
-1699881063292:Docker/publishLocal
-1699881079786:exit

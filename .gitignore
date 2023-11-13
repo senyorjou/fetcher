@@ -1,3 +1,5 @@
 .clj-kondo
 .lsp
 scala/target
+scala/.idea
+scala/.bsp

@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/scala_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RequestResponseUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/RequestResponseUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FetcherScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/FetcherScala$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TemperatureResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/TemperatureResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CurrentWeather.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/CurrentWeather.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TemperatureRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/TemperatureRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TemperatureRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/TemperatureRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FetcherScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/FetcherScala$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CurrentWeatherUnits$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/CurrentWeatherUnits$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	capitals.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/capitals.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CurrentWeather$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/CurrentWeather$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FetcherScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/FetcherScala.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CurrentWeatherUnits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/CurrentWeatherUnits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RequestResponseUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/RequestResponseUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TemperatureResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/classes/TemperatureResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

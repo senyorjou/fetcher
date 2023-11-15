@@ -3,7 +3,8 @@
 IMAGE_NAME=fetcher-scala:1.0.0
 
 build:
-	sbt Docker/publishLocal
+        cd target/docker/stage
+	docker build -t $IMAGE_NAME .
 
 run:
 	docker run --rm $(IMAGE_NAME)

@@ -1,0 +1,84 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t fetcher-scala:1.0.0 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/giscla/Projects/others/fetcher/scala/target/docker/stage[0m
+[0m[[0m[31merror[0m] [0m[0m#0 building with "desktop-linux" instance using docker driver[0m
+[0m[[0m[31merror[0m] [0m[0m#1 [internal] load .dockerignore[0m
+[0m[[0m[31merror[0m] [0m[0m#1 transferring context: 2B done[0m
+[0m[[0m[31merror[0m] [0m[0m#1 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#2 [internal] load build definition from Dockerfile[0m
+[0m[[0m[31merror[0m] [0m[0m#2 transferring dockerfile: 1.04kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#2 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#3 [internal] load metadata for docker.io/adoptopenjdk/openjdk11:latest[0m
+[0m[[0m[31merror[0m] [0m[0m#3 DONE 2.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#4 [internal] load build context[0m
+[0m[[0m[31merror[0m] [0m[0m#4 transferring context: 58.95kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#4 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 [mainstage 1/5] FROM docker.io/adoptopenjdk/openjdk11@sha256:908b3e6651873cb582eaa1536a4f15c5d359b0678a8ce35e7c1ae586de900522[0m
+[0m[[0m[31merror[0m] [0m[0m#5 resolve docker.io/adoptopenjdk/openjdk11@sha256:908b3e6651873cb582eaa1536a4f15c5d359b0678a8ce35e7c1ae586de900522 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 0B / 192.58MB 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:908b3e6651873cb582eaa1536a4f15c5d359b0678a8ce35e7c1ae586de900522 1.72kB / 1.72kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:ae171db5f5f5f571d31847a33de97a8565483e18e050deab9292138f1978808a 954B / 954B done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:03b5e277e507a085fa5f66f6cea8e9270387777523f4255335012855782abdc0 4.56kB / 4.56kB done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 0B / 15.93MB 0.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 2.10MB / 15.93MB 0.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 3.15MB / 15.93MB 0.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 4.19MB / 15.93MB 0.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 7.34MB / 15.93MB 0.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 8.39MB / 15.93MB 1.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 10.49MB / 192.58MB 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 11.53MB / 15.93MB 1.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 12.58MB / 15.93MB 1.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 14.68MB / 15.93MB 1.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 extracting sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 15.93MB / 15.93MB 1.5s done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 20.97MB / 192.58MB 1.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 32.51MB / 192.58MB 2.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 extracting sha256:5fbeefee613e9a3e9f39fba670ff141b80b742c35f6b21d36e7796a8392dd90f 0.9s done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 44.04MB / 192.58MB 2.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 54.53MB / 192.58MB 2.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 65.01MB / 192.58MB 3.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 75.50MB / 192.58MB 3.5s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 87.03MB / 192.58MB 3.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 98.57MB / 192.58MB 4.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 112.20MB / 192.58MB 4.8s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 125.83MB / 192.58MB 5.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 137.36MB / 192.58MB 5.7s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 148.90MB / 192.58MB 6.1s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 163.58MB / 192.58MB 6.6s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 175.11MB / 192.58MB 7.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 186.65MB / 192.58MB 7.4s[0m
+[0m[[0m[31merror[0m] [0m[0m#5 sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 192.58MB / 192.58MB 7.6s done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 extracting sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02[0m
+[0m[[0m[31merror[0m] [0m[0m#5 extracting sha256:2c0f85b6bc78d5377c000336c10f28d0b3f255681a1c343bb0f85f256ea5cf02 1.2s done[0m
+[0m[[0m[31merror[0m] [0m[0m#5 DONE 8.9s[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#6 ...[0m
+[0m[[0m[31merror[0m] [0m[0m#7 [stage0 2/7] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#7 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#8 [stage0 3/7] COPY 2/opt /2/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#8 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#9 [stage0 4/7] COPY 4/opt /4/opt[0m
+[0m[[0m[31merror[0m] [0m[0m#9 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#6 [mainstage 2/5] RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[31merror[0m] [0m[0m#6 DONE 0.3s[0m
+[0m[[0m[31merror[0m] [0m[0m#10 [mainstage 3/5] WORKDIR /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#10 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#11 [stage0 5/7] RUN ["chmod", "-R", "u=rX,g=rX", "/2/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#11 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#12 [stage0 6/7] RUN ["chmod", "-R", "u=rX,g=rX", "/4/opt/docker"][0m
+[0m[[0m[31merror[0m] [0m[0m#12 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#13 [stage0 7/7] RUN ["chmod", "u+x,g+x", "/4/opt/docker/bin/scala"][0m
+[0m[[0m[31merror[0m] [0m[0m#13 DONE 0.2s[0m
+[0m[[0m[31merror[0m] [0m[0m#14 [mainstage 4/5] COPY --from=stage0 --chown=demiourgos728:root /2/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#14 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#15 [mainstage 5/5] COPY --from=stage0 --chown=demiourgos728:root /4/opt/docker /opt/docker[0m
+[0m[[0m[31merror[0m] [0m[0m#15 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting to image[0m
+[0m[[0m[31merror[0m] [0m[0m#16 exporting layers 0.0s done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 writing image sha256:344f57e6d69588572957d4072dd1abc0907c23d16b20921e1d833d400c24132c done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 naming to docker.io/library/fetcher-scala:1.0.0 done[0m
+[0m[[0m[31merror[0m] [0m[0m#16 DONE 0.0s[0m
+[0m[[0m[31merror[0m] [0m[0mWhat's Next?[0m
+[0m[[0m[31merror[0m] [0m[0m  View a summary of image vulnerabilities and recommendations → docker scout quickview[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=40073721-bfc6-44cc-a460-6fc27eedc252") [0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 0B[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image fetcher-scala with tags [1.0.0][0m

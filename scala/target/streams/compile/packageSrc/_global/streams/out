@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/giscla/Projects/others/fetcher/scala/target/scala-2.13/scala_2.13-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/src/main/resources/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	capitals.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/src/main/resources/capitals.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RequestResponseUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/src/main/scala/RequestResponseUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FetcherScala.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/giscla/Projects/others/fetcher/scala/src/main/scala/FetcherScala.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
